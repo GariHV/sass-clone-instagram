@@ -1,0 +1,56 @@
+img {
+  height: 700px;
+  width: 400px;
+}
+
+.insta-logo {
+  height: 100px;
+  width: 200px;
+}
+
+.download-logo {
+  height: 60px;
+  width: 150px;
+}
+
+.logo-cont {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  height: 90hv;
+}
+
+.all-main-content {
+  margin: auto;
+}
+
+footer {
+  margin-bottom: 5px;
+}
+footer .footer-container {
+  height: 10vh;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .footer-container .footer-sections ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+footer .footer-container .footer-copyright {
+  text-align: center;
+  font-weight: bold;
+  opacity: 0.6;
+}
+
+/* MAIN SCSS THIS IMPORTS EVERYTHING*/
+
+/*# sourceMappingURL=style.css.map */

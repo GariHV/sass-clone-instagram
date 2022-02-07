@@ -1,0 +1,24 @@
+footer{
+    margin-bottom: 5px;
+    .footer-container{
+        height: 10vh;
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: no-wrap;
+        justify-content: space-around;
+        align-items: center;
+        .footer-sections{
+            ul{
+                display:flex;
+                flex-direction: row;
+                list-style: none;
+            }
+        }
+        .footer-copyright{
+            text-align: center;
+            font-weight: bold;
+            opacity: 0.6;
+        }
+    }
+}

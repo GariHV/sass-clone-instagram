@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./scss/_main.scss">
+  <link rel="stylesheet" href="./css/style.css">
   <title>Sass Instagram clone!</title>
   <link rel="icon" type="image/png" href="./img/Instagram_icon.png">
   <script src="https://kit.fontawesome.com/71f02e573d.js" crossorigin="anonymous"></script>
@@ -13,20 +13,18 @@
 
 <body>
   <main>
+    <div class="all-main-content">
     <div class="container main-container">
       <div class="main-content content-left">
         <div class="img img-1">
-          <img src="./img/insta-mobile-2.png" alt="Instagram mobile view 1">
-        </div>
-        <div class="img img-2">
-          <img src="./img/insta-mobile-1.png" alt="Instagram mobile view 2">
+          <img class="img-1" src="./img/insta-mobile-2.png" alt="Instagram mobile view 1" onmouseover="this.src='./img/insta-mobile-1.png'" onmouseout="this.src='./img/insta-mobile-2.png'">
         </div>
       </div>
       <div class="main-content content-right">
         <div class="content-right-wrapper">
           <div class="form-container">
-            <div class="insta-logo">
-              <img src="./img/logo-text.png" alt="Instagram text logo">
+            <div>
+              <img class="insta-logo" src="./img/logo-text.png" alt="Instagram text logo">
             </div>
 
             <form action="home.html">
@@ -64,15 +62,16 @@
             </div>
             <div class="logo-cont">
               <div class="download-logo download-logo-1">
-                <img src="./img/app-store.png" alt="Download image App store">
+                <img class="download-logo" src="./img/app-store.png" alt="Download image App store">
               </div>
               <div class="download-logo download-logo-2">
-                <img src="./img/google-play.png" alt="Download image Google Play store">
+                <img class="download-logo" src="./img/google-play.png" alt="Download image Google Play store">
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
     </div>
   </main>
 
@@ -99,6 +98,12 @@
       </div>
     </div>
   </footer>
+
+  <script>
+
+
+
+  </script>
 </body>
 
 </html>
